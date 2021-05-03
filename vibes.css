@@ -129,8 +129,6 @@ input, input::placeholder {
 
 /*Left Main Content */
 
-
-
 #miasmus {
     font-family: neon;
     color: purple;
@@ -147,31 +145,6 @@ input, input::placeholder {
     font-size: 3.5em;
     font-weight: bold;
     line-height: 3.5rem;
-}
-
-div.card {
-    background-color: transparent;
-    box-shadow: none;
-}
-
-div.content {
-    color: white;
-}
-
-
-.card-content{
-    position: relative;
-    padding: 0;
-}
-
-.content h4 {
-    color: white;
-    margin-bottom: 0.1em;
-    font-weight: bold;
-}
-
-.content p {
-    font-size: 0.9em;
 }
 
 .titleInfo {
@@ -196,7 +169,6 @@ div.content {
 .rightFlexContent:nth-of-type(1) {
     margin: 0rem 3rem 0rem 3rem;
 }
-
 
 #mainContentRight {
     margin: auto;
@@ -242,7 +214,6 @@ div.content {
     text-align: left;
     padding: 5px 10px;
 }
-
 
 
 /*Animations for Left Main Content (Big Title)*/
@@ -324,9 +295,7 @@ a.navbar-burger:hover{
     #leftContainer {
         width: 100vw;
         text-align: center;
-    }
-    .media-content {
-        overflow: visible;
+        z-index: 1;
     }
     #mainContentRight {
         flex-direction: column;
