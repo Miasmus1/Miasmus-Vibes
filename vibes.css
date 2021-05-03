@@ -23,7 +23,7 @@ body {
     left: 0;
 
     filter: brightness(0.2);
-    z-index: -5;
+    z-index: -1;
 }
 
 /* NavBar   */
