@@ -293,7 +293,6 @@ a.navbar-burger:hover{
     #leftContainer {
         width: 100vw;
         text-align: center;
-        z-index: 1;
     }
     #mainContentRight {
         flex-direction: column;
